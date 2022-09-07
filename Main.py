@@ -19,6 +19,7 @@ size = len(text)
 for char in text:
     if len(stack) == size:
         print("The stack is full.")
+        
         else:
             stack.append(char)
             top += 1
